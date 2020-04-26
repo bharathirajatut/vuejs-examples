@@ -22,14 +22,10 @@
       {{x.name}} - {{x.gender}}
     </p>
 
-    <button v-on:click="getData">Load Data</button>
-
   </div>
 </template>
 
 <script>
-
-import axios from 'axios';
 
 export default {
   name: 'App', //component name
@@ -49,15 +45,7 @@ export default {
   },
   methods:{
     //your function goes here
-    getData()
-    {
-      axios.get('https://randomuser.me/api/?results=5').then(res=>{
-
-      }).catch(err=>{
-        console.log(err);
-        
-      })
-    }
+    
     //function ends here
   }
 }
