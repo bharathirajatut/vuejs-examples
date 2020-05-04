@@ -1,0 +1,10 @@
+1. to run
+
+npm run serve
+
+2. sole fs events
+
+npm i fsevents --save
+
+
+npm install --save vue-router
